@@ -1,0 +1,24 @@
+.button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  -webkit-box-shadow: 1px 1px 3px #b025b0;
+  -moz-box-shadow: 1px 1px 3px #b025b0;
+  box-shadow: 1px 1px 3px #b025b0;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #820e82 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d061ff), to(#8B04C3));
+  background: -moz-linear-gradient(top, #d061ff, #8B04C3);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#d061ff, endColorStr=#8B04C3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#d061ff, endColorStr=#8B04C3);
+  display:inline-block; /* IE is so silly */
+}
+.button:hover {
+  background: #6b0c94;
+}
+
